@@ -1,0 +1,20 @@
+.workoutForm {
+  padding: 50px;
+  position: absolute;
+  top: 15vh;
+  left: 50vw;
+  display: inline-block;
+  min-width: 200px;
+  margin-left: -150px;
+  max-width: 200px;
+  max-height: 50vh;
+  overflow-y: scroll;
+}
+
+.addButton {
+  margin: 15px !important;
+}
+
+.selectField {
+    display: flex !important;
+}

@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #505B6E;
+  position: absolute;
+  top: 0;
+  overflow-y: scroll;
+}
+
+.navbar {
+  background-color: #F8FAF8 !important;
+}
+
+.nav-header {
+  color: #505B6E !important;
+}
+
+.menuButton {
+  margin-right: 5px !important;
+}
+
+.listHeader {
+  min-height: 56px;
+}

@@ -1,0 +1,99 @@
+
+.timeContainer {
+  position: absolute;
+  top: 10vh;
+  left: 10vw;
+  max-width: 20vw;
+}
+
+.strengthContainer {
+  position: absolute;
+  max-width: 20vw;
+  top: 10vh;
+  left:40vw;
+}
+
+.weaknessContainer {
+  position: absolute;
+  max-width: 20vw;
+  top: 10vh;
+  left:70vw;
+}
+.trainingContainer {
+  position: absolute;
+  max-width: 20vw;
+  top: 55vh;
+  left: 10vw;
+}
+
+.VictoryContainer {
+  width: inherit !important;
+}
+
+.loading {
+  margin: auto;
+  margin-top: 30vh;
+}
+
+.liftContainer {
+  max-width: 20vw;
+  margin: auto;
+  margin-top: 10vh;
+  margin-left: 5vw;
+  float: left;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container {
+      height: 100vh;
+      overflow-y: scroll;
+    }
+    .dataContainer {
+
+    }
+    .timeContainer {
+      position: relative;
+      margin: auto;
+      margin-top: 75px;
+      top: auto;
+      left: auto;
+      max-width: 80vw;
+    }
+    .strengthContainer {
+      position: relative;
+      margin: auto;
+      margin-top: 25px;
+      top: auto;
+      left: auto;
+      max-width: 80vw;
+    }
+    .weaknessContainer {
+      position: relative;
+      margin: auto;
+      margin-top: 25px;
+      top: auto;
+      left: auto;
+      max-width: 80vw;
+    }
+    .trainingContainer {
+      position: relative;
+      margin: auto;
+      margin-top: 25px;
+      top: auto;
+      left: auto;
+      max-width: 80vw;
+    }
+
+    .liftContainer {
+      position: relative;
+      max-width: 80vw;
+      margin: auto;
+      float: none;
+      margin-top: 10vh;
+    }
+
+    .scrollable > svg {
+      overflow: overlay;
+    }
+}

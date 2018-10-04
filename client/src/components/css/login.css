@@ -1,0 +1,29 @@
+.loginContainer {
+  width:500px;
+  position: absolute;
+  top: 30vh;
+  left: 45vw;
+  margin-left: -170px;
+}
+.paperContainer {
+  padding: 15px;
+}
+
+.MuiButton-containedPrimary-88 {
+  background-color: #A1AEBA;
+}
+
+.signIn-button {
+  margin-top:10px !important;
+  margin-bottom: 10px !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .loginContainer {
+    width:75%;
+    position: absolute;
+    top: 20%;
+    left: 57%;
+  }
+}
